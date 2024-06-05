@@ -1,0 +1,17 @@
+import = [
+    "~/AppData/Roaming/alacritty/colors.toml",
+    "~/AppData/Roaming/alacritty/bindings.toml",
+]
+
+[shell]
+program = "wsl"
+args = ["~"]
+
+[window]
+dimensions = { columns = 120, lines = 40 }
+padding = { x = 8, y = 8 }
+opacity = 0.95
+decorations = "none"
+
+[font]
+normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
